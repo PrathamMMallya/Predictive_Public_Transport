@@ -111,12 +111,21 @@ def otp_query_for(role, phone, email=None, otp=None):
 # REQUEST OTP
 # =====================================================
 @app.route("/api/auth/request-otp", methods=["POST"])
+@app.route("/api/auth/request-otp", methods=["POST"])
 def request_otp():
+    print("[OTP DEBUG] request_otp() reached", flush=True)
+
     data = request.get_json(silent=True) or {}
 
     role = data.get("role")
     phone = data.get("phone")
     email = (data.get("email") or "").strip().lower()
+
+    print(f"[OTP DEBUG] Role: {role}", flush=True)
+    print(
+        f"[OTP DEBUG] Phone ending: {phone[-4:] if isinstance(phone, str) else 'invalid'}",
+        flush=True,
+    )
 
     if role not in ("passenger", "conductor", "admin"):
         return jsonify({"error": "Invalid role"}), 400
@@ -127,7 +136,6 @@ def request_otp():
     if role in ("conductor", "admin") and not valid_email(email):
         return jsonify({"error": "Invalid email"}), 400
 
-    # Only one current OTP per role/phone/email combination.
     otp_query = otp_query_for(role, phone, email if email else None)
     otp_collection.delete_many(otp_query)
 
@@ -145,12 +153,13 @@ def request_otp():
         "expires_at": expires_at,
     })
 
-    # Demo mode: prints the OTP in the Flask terminal.
-    destination = phone[-4:]
+    destination = f"phone ending {phone[-4:]}"
     if role in ("conductor", "admin"):
-        destination = f"phone ending {phone[-4:]}, email {email}"
+        destination += f", email {email}"
 
     send_otp(destination, otp)
+
+    print("[OTP DEBUG] OTP generated and stored successfully", flush=True)
 
     return jsonify({
         "message": "OTP generated. Check the backend terminal in development."
