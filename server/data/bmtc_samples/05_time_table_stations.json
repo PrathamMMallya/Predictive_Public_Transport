@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "routeid": 4360,
+            "id": 44,
+            "fromstationid": 36223,
+            "tostationid": 20922,
+            "f": 0.0,
+            "t": 14.11,
+            "routeno": "210-NP",
+            "routename": "PPLO-KBS",
+            "fromstationname": "Poornaprajnalayout NEW Bus Stand",
+            "tostationname": "Kempegowda Bus Station",
+            "traveltime": "01:10:00",
+            "distance": 14.11,
+            "apptime": "00:45:00",
+            "apptimesecs": "2700",
+            "starttime": "19:30:00",
+            "platformname": null,
+            "platformnumber": null,
+            "baynumber": null
+        },
+        {
+            "routeid": 4562,
+            "id": 2,
+            "fromstationid": 22395,
+            "tostationid": 20922,
+            "f": 0.0,
+            "t": 14.24,
+            "routeno": "210-NA",
+            "routename": "PPLO-KBS",
+            "fromstationname": "Poornaprajna Layout",
+            "tostationname": "Kempegowda Bus Station",
+            "traveltime": "01:05:00",
+            "distance": 14.24,
+            "apptime": "00:53:00",
+            "apptimesecs": "3180",
+            "starttime": "19:40:00",
+            "platformname": null,
+            "platformnumber": null,
+            "baynumber": null
+        }
+    ],
+    "Message": "Success",
+    "Issuccess": true,
+    "exception": null,
+    "RowCount": 2,
+    "responsecode": 200
+}

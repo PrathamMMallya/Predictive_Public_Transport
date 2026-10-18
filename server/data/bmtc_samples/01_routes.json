@@ -1,0 +1,380 @@
+{
+    "data": [
+        {
+            "union_rowno": 2,
+            "row": 1,
+            "routeno": "210-A",
+            "responsecode": 200,
+            "routeparentid": 7426
+        },
+        {
+            "union_rowno": 2,
+            "row": 3,
+            "routeno": "210-AA",
+            "responsecode": 200,
+            "routeparentid": 7427
+        },
+        {
+            "union_rowno": 2,
+            "row": 5,
+            "routeno": "210-B",
+            "responsecode": 200,
+            "routeparentid": 1816
+        },
+        {
+            "union_rowno": 2,
+            "row": 7,
+            "routeno": "210-B KBS-KMT-CHG",
+            "responsecode": 200,
+            "routeparentid": 4354
+        },
+        {
+            "union_rowno": 2,
+            "row": 10,
+            "routeno": "210-B KBS-KMT-KTNR",
+            "responsecode": 200,
+            "routeparentid": 6974
+        },
+        {
+            "union_rowno": 2,
+            "row": 11,
+            "routeno": "210-B KTNR-KMT-VSD",
+            "responsecode": 200,
+            "routeparentid": 1817
+        },
+        {
+            "union_rowno": 2,
+            "row": 13,
+            "routeno": "210-CA",
+            "responsecode": 200,
+            "routeparentid": 8644
+        },
+        {
+            "union_rowno": 2,
+            "row": 15,
+            "routeno": "210-CA KMT-GBL",
+            "responsecode": 200,
+            "routeparentid": 8645
+        },
+        {
+            "union_rowno": 2,
+            "row": 17,
+            "routeno": "210-D",
+            "responsecode": 200,
+            "routeparentid": 2444
+        },
+        {
+            "union_rowno": 2,
+            "row": 20,
+            "routeno": "210-E",
+            "responsecode": 200,
+            "routeparentid": 2450
+        },
+        {
+            "union_rowno": 2,
+            "row": 22,
+            "routeno": "210-E KBS-CEC",
+            "responsecode": 200,
+            "routeparentid": 2447
+        },
+        {
+            "union_rowno": 2,
+            "row": 24,
+            "routeno": "210-EA",
+            "responsecode": 200,
+            "routeparentid": 2452
+        },
+        {
+            "union_rowno": 2,
+            "row": 26,
+            "routeno": "210-FA",
+            "responsecode": 200,
+            "routeparentid": 1945
+        },
+        {
+            "union_rowno": 2,
+            "row": 27,
+            "routeno": "210-G",
+            "responsecode": 200,
+            "routeparentid": 2113
+        },
+        {
+            "union_rowno": 2,
+            "row": 29,
+            "routeno": "210-G SBS-ISRLO-PPLO",
+            "responsecode": 200,
+            "routeparentid": 2461
+        },
+        {
+            "union_rowno": 2,
+            "row": 31,
+            "routeno": "210-GA",
+            "responsecode": 200,
+            "routeparentid": 8129
+        },
+        {
+            "union_rowno": 2,
+            "row": 34,
+            "routeno": "210-H",
+            "responsecode": 200,
+            "routeparentid": 2115
+        },
+        {
+            "union_rowno": 2,
+            "row": 35,
+            "routeno": "210-HA",
+            "responsecode": 200,
+            "routeparentid": 1600
+        },
+        {
+            "union_rowno": 2,
+            "row": 38,
+            "routeno": "210-HB",
+            "responsecode": 200,
+            "routeparentid": 2471
+        },
+        {
+            "union_rowno": 2,
+            "row": 40,
+            "routeno": "210-J",
+            "responsecode": 200,
+            "routeparentid": 2432
+        },
+        {
+            "union_rowno": 2,
+            "row": 42,
+            "routeno": "210-J VSD",
+            "responsecode": 200,
+            "routeparentid": 2434
+        },
+        {
+            "union_rowno": 2,
+            "row": 43,
+            "routeno": "210-KA",
+            "responsecode": 200,
+            "routeparentid": 2402
+        },
+        {
+            "union_rowno": 2,
+            "row": 45,
+            "routeno": "210-KA KBS-PPLO",
+            "responsecode": 200,
+            "routeparentid": 2677
+        },
+        {
+            "union_rowno": 2,
+            "row": 47,
+            "routeno": "210-KN",
+            "responsecode": 200,
+            "routeparentid": 1074
+        },
+        {
+            "union_rowno": 2,
+            "row": 50,
+            "routeno": "210-N",
+            "responsecode": 200,
+            "routeparentid": 2116
+        },
+        {
+            "union_rowno": 2,
+            "row": 52,
+            "routeno": "210-N BEML5TS-KBS",
+            "responsecode": 200,
+            "routeparentid": 6541
+        },
+        {
+            "union_rowno": 2,
+            "row": 54,
+            "routeno": "210-NA",
+            "responsecode": 200,
+            "routeparentid": 2504
+        },
+        {
+            "union_rowno": 2,
+            "row": 55,
+            "routeno": "210-NA PPLO-KMK",
+            "responsecode": 200,
+            "routeparentid": 3896
+        },
+        {
+            "union_rowno": 2,
+            "row": 58,
+            "routeno": "210-NB",
+            "responsecode": 200,
+            "routeparentid": 2506
+        },
+        {
+            "union_rowno": 2,
+            "row": 59,
+            "routeno": "210-ND",
+            "responsecode": 200,
+            "routeparentid": 2678
+        },
+        {
+            "union_rowno": 2,
+            "row": 62,
+            "routeno": "210-ND KBS-PPLO",
+            "responsecode": 200,
+            "routeparentid": 3381
+        },
+        {
+            "union_rowno": 2,
+            "row": 64,
+            "routeno": "210-NG",
+            "responsecode": 200,
+            "routeparentid": 2679
+        },
+        {
+            "union_rowno": 2,
+            "row": 65,
+            "routeno": "210-NH",
+            "responsecode": 200,
+            "routeparentid": 2680
+        },
+        {
+            "union_rowno": 2,
+            "row": 67,
+            "routeno": "210-NP",
+            "responsecode": 200,
+            "routeparentid": 2401
+        },
+        {
+            "union_rowno": 2,
+            "row": 69,
+            "routeno": "210-NP KBS-VSD-PPLO",
+            "responsecode": 200,
+            "routeparentid": 2490
+        },
+        {
+            "union_rowno": 2,
+            "row": 72,
+            "routeno": "210-NP PPLO-KML-KBS",
+            "responsecode": 200,
+            "routeparentid": 3412
+        },
+        {
+            "union_rowno": 2,
+            "row": 73,
+            "routeno": "210-NP PPLO-KMT",
+            "responsecode": 200,
+            "routeparentid": 3401
+        },
+        {
+            "union_rowno": 2,
+            "row": 75,
+            "routeno": "210-P",
+            "responsecode": 200,
+            "routeparentid": 2119
+        },
+        {
+            "union_rowno": 2,
+            "row": 77,
+            "routeno": "210-P PPLO-CKLS",
+            "responsecode": 200,
+            "routeparentid": 2674
+        },
+        {
+            "union_rowno": 2,
+            "row": 79,
+            "routeno": "210 PPLO-KMT",
+            "responsecode": 200,
+            "routeparentid": 3891
+        },
+        {
+            "union_rowno": 2,
+            "row": 81,
+            "routeno": "210-Q",
+            "responsecode": 200,
+            "routeparentid": 2118
+        },
+        {
+            "union_rowno": 2,
+            "row": 83,
+            "routeno": "210-R",
+            "responsecode": 200,
+            "routeparentid": 2114
+        },
+        {
+            "union_rowno": 2,
+            "row": 85,
+            "routeno": "210-T",
+            "responsecode": 200,
+            "routeparentid": 2400
+        },
+        {
+            "union_rowno": 2,
+            "row": 88,
+            "routeno": "210-TA",
+            "responsecode": 200,
+            "routeparentid": 6817
+        },
+        {
+            "union_rowno": 2,
+            "row": 90,
+            "routeno": "210-TP",
+            "responsecode": 200,
+            "routeparentid": 6818
+        },
+        {
+            "union_rowno": 2,
+            "row": 92,
+            "routeno": "210-U",
+            "responsecode": 200,
+            "routeparentid": 2399
+        },
+        {
+            "union_rowno": 2,
+            "row": 93,
+            "routeno": "210-W",
+            "responsecode": 200,
+            "routeparentid": 1255
+        },
+        {
+            "union_rowno": 2,
+            "row": 95,
+            "routeno": "210-WA",
+            "responsecode": 200,
+            "routeparentid": 2398
+        },
+        {
+            "union_rowno": 2,
+            "row": 97,
+            "routeno": "210-WA KBS-BEML5",
+            "responsecode": 200,
+            "routeparentid": 2412
+        },
+        {
+            "union_rowno": 2,
+            "row": 99,
+            "routeno": "210-X",
+            "responsecode": 200,
+            "routeparentid": 2397
+        },
+        {
+            "union_rowno": 2,
+            "row": 102,
+            "routeno": "210-X BSK-CNDRN",
+            "responsecode": 200,
+            "routeparentid": 2507
+        },
+        {
+            "union_rowno": 2,
+            "row": 103,
+            "routeno": "210-Z",
+            "responsecode": 200,
+            "routeparentid": 2395
+        },
+        {
+            "union_rowno": 2,
+            "row": 106,
+            "routeno": "210-Z BSK-RMLO",
+            "responsecode": 200,
+            "routeparentid": 4617
+        }
+    ],
+    "Message": "Success",
+    "Issuccess": true,
+    "exception": null,
+    "RowCount": 53,
+    "responsecode": 200
+}

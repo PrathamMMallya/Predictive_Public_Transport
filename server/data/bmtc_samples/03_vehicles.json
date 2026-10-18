@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "vehicleid": 19100,
+            "vehicleregno": "KA53F0007",
+            "responsecode": 200
+        },
+        {
+            "vehicleid": 18830,
+            "vehicleregno": "KA57F0007",
+            "responsecode": 200
+        }
+    ],
+    "Message": "Success",
+    "Issuccess": true,
+    "exception": null,
+    "RowCount": 2,
+    "responsecode": 200
+}

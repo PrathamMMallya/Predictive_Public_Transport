@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "fromstationname": "Kempegowda Bus Station",
+            "tostationname": "Uttarahalli Bus Stand",
+            "fromstationid": "20921",
+            "tostationid": "22569",
+            "apptime": "01:15:00",
+            "distance": "15.80",
+            "platformname": "8B",
+            "platformnumber": "",
+            "baynumber": "",
+            "tripdetails": [
+                {
+                    "starttime": "18:50",
+                    "endtime": "20:05"
+                },
+                {
+                    "starttime": "19:50",
+                    "endtime": "21:05"
+                },
+                {
+                    "starttime": "20:30",
+                    "endtime": "21:50"
+                },
+                {
+                    "starttime": "21:40",
+                    "endtime": "22:40"
+                },
+                {
+                    "starttime": "21:55",
+                    "endtime": "22:55"
+                }
+            ]
+        }
+    ],
+    "Message": "Success",
+    "Issuccess": true,
+    "exception": null,
+    "RowCount": 1,
+    "responsecode": 200
+}
